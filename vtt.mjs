@@ -9,6 +9,7 @@ const vttInterviewDirective = {
     doc: 'The path to the interview file, e.g. interview.md',
   },
   options: {
+    // Bring in yaml header values
     project: { type: String, doc: 'Project name.' },
     interviewee: { type: String, doc: 'Interviewee name.' },
     date: { type: String, doc: 'Date of the interview.' },
